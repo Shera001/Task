@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="card">Cart</string>
+    <string name="account">Account</string>
+    <string name="products">Products</string>
+    <string name="resent_searches">RESENT SEARCHES</string>
+    <string name="color">color</string>
+    <string name="speaker">Speaker</string>
+    <string name="price">150$</string>
+    <string name="count">1</string>
+</resources>

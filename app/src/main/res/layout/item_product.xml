@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="20dp"
+    app:contentPadding="10dp"
+    app:cardBackgroundColor="#F3F6F8"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginStart="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/product_item_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/speakers"/>
+
+        <TextView
+            android:id="@+id/product_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            tools:text="Speaker"/>
+
+        <TextView
+            android:id="@+id/product_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            tools:text="150$"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
